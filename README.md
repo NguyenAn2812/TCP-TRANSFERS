@@ -1,47 +1,48 @@
-# File Transfer Application
+# TCP Transfers
 
-This is a simple file transfer application built with Python. It allows users to send and receive files over a network, with functionalities for opening ports and viewing the local IP address.
+**TCP Transfers** is a file transfer application that utilizes the TCP protocol for reliable data transmission. This application allows users to send and receive files securely over the network with a user-friendly interface.
 
-## Features
+---
 
-- View your local IP address
-- Open port 5000 for file transfer
-- Send files to another computer
-- Receive files from another computer
+## Key Features
 
-## Getting Started
+- **View IP Address**: Displays the IP address of the machine to identify the network.
+- **Open Port 5000**: Opens a specific port to allow TCP connections.
+- **File Transfer**: Send and receive files between devices using the TCP protocol.
+- **Compression & Decompression**: Automatically compress files before sending and decompress after receiving.
+- **Progress Bar**: Shows a progress bar during the file transfer process, providing visual feedback to users.
 
-### Prerequisites
+---
 
-This application has been packaged into a setup file. Ensure you have the following libraries installed in your Python environment:
+## Installation Guide
 
-- `socket`
-- `subprocess`
-- `elevate`
-- `zipfile`
-- `os`
+1. **Download the Installer**: You can download the installer for both languages below:
+   - [Download English Version (tcptrans_ENG.exe)](#)
+   - [Download Vietnamese Version (tcptrans_VN.exe)](#)
 
-However, these libraries are already included in the project setup.
+2. **Place the `tcptrans.exe` file in a separate folder**. This ensures that all generated folders and files stay organized within this folder.
 
-### Installation
 
-1. Download the setup file from the link below:
-   - [Download Setup File](your_download_link_here)
+---
 
-2. Run the setup file to extract the necessary files.
+## Detailed Usage Instructions
 
-### Usage
+### First Time Running the Application
 
-1. Open a terminal or command prompt.
-2. Navigate to the directory where the application files are located.
-3. Run the application by executing `python your_application.py`.
+- After installation, you need to **place the `tcptrans.exe` file** in a **separate folder**.
+- When you **run the software for the first time**, it will automatically **create two folders**:
+  - **`Sending`**: This folder will store the files you want to send.
+  - **`Receive`**: This folder will store the files you receive.
+- Once the application starts, you will see the following menu options:
 
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-### Acknowledgements
-
-- Thanks to the Python community for providing the libraries that made this project possible.
-
-## Contact
+```bash
+============================
+            MENU
+============================
+ ________________________
+| 1. View IP Address        |
+| 2. Open Port 5000         |
+| 3. Send File              |
+| 4. Receive File           |
+| 5. Exit                   |
+|___________________________|
