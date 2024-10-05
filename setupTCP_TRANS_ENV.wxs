@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="TCP transfers" Language="1033" Version="1.0.3" Manufacturer="NhatAn" UpgradeCode="fb84d70a-7ff5-4978-8101-87d6a89d0255">
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
+
+    <MediaTemplate />
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="TCPTRANSFERS" />
+      </Directory>
+    </Directory>
+
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="FileTransferComponent" Guid="fb84d70a-7ff5-4978-8101-87d6a89d0255">
+        <File Id="FileTransferExecutable" Source="dist/TCPtransmits_VN.exe" />
+      </Component>
+    </ComponentGroup>
+
+    <Feature Id="ProductFeature" Title="File Transfer Utility" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+    </Feature>
+  </Product>
+</Wix>
