@@ -73,7 +73,7 @@
 ---
 
 ## Technical Stack
-- **Programming Language**: Java (for TCP connections and file handling).
+- **Programming Language**: Python (for TCP connections and file handling).
 - **Standalone Executable**: The application is a self-contained executable; no additional installations or configurations are needed.
 
 ---
@@ -86,4 +86,7 @@ If you encounter issues while using the application, try the following:
 - **File Not Sent**: Make sure the file exists in the **Sending** folder, and ensure the recipient is ready to receive the file.
 
 For further assistance, feel free to contact us at [support@nhatan.com](mailto:nguyentrannhatan2812@gmail.com).
+
+## Acknowledgment
+This application was conceived as a personal project to solve the need for easy file transfer between devices. I developed this utility out of curiosity and necessity, and I want to clarify that I did not intend to copy anyone's ideas or concepts. This project is not intended for commercial use and is shared solely for educational and personal purposes.
 
