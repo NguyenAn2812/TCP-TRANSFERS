@@ -46,3 +46,44 @@
 | 4. Receive File           |
 | 5. Exit                   |
 |___________________________|
+
+```
+## Detailed Usage Instructions
+
+### 1. View IP Address
+- Select **Option 1** to display your device's IP address.
+  
+  **Important Note**: When sending files, you must know the IP address of the recipient's machine. The recipient can view their IP address using **Option 1** on their side.
+
+### 2. Open Port 5000
+- Select **Option 2** to open port 5000, allowing TCP connections to the device.
+
+  **Important Note**: If you are receiving files, ensure that port 5000 is open. If you're not sure whether the port is open, choose **Option 2** to open it.
+
+### 3. Send File
+- Select **Option 3** to send a file.
+
+  **Important Note**: You need to know the IP address of the recipient's machine. The recipient can check their IP address using **Option 1** on their side. After selecting a file from your **Sending** folder, the software will automatically compress it before sending.
+
+### 4. Receive File
+- Select **Option 4** to receive a file.
+
+  **Important Note**: Make sure port 5000 is open on your machine. If it's not open or you're unsure, select **Option 2** to open it. The file will be saved to the **Receive** folder and decompressed automatically.
+
+---
+
+## Technical Stack
+- **Programming Language**: Java (for TCP connections and file handling).
+- **Standalone Executable**: The application is a self-contained executable; no additional installations or configurations are needed.
+
+---
+
+## Troubleshooting
+If you encounter issues while using the application, try the following:
+
+- **IP Address Issues**: Ensure the IP address is correct and the devices are on the same network.
+- **Port Not Open**: Make sure port 5000 is open on the receiver's device. You can open it using **Option 2** from the menu.
+- **File Not Sent**: Make sure the file exists in the **Sending** folder, and ensure the recipient is ready to receive the file.
+
+For further assistance, feel free to contact us at [support@nhatan.com](mailto:nguyentrannhatan2812@gmail.com).
+
