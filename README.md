@@ -17,7 +17,7 @@
 ## Installation Guide
 
 1. **Download the Installer**: You can download the installer for both languages below:
-   - [Download English Version (tcptrans_ENG.exe)](#)
+   - [Download English Version (tcptrans_ENG.exe)](https://github.com/NguyenAn2812/TCP-TRANSFERS/releases/download/v1.0.0/TCPtransmits_ENG.exe)
    - [Download Vietnamese Version (tcptrans_VN.exe)](#)
 
 2. **Place the `tcptrans.exe` file in a separate folder**. This ensures that all generated folders and files stay organized within this folder.
